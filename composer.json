@@ -1,0 +1,21 @@
+{
+    "name": "sunxs/curlhttplib",
+    "description": "CURL HTTP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sunxs",
+            "email": "3762820@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "sunxs\\curlhttplib\\": "src/http/lib"
+        }
+    }
+}
